@@ -91,3 +91,12 @@ update_data = {
 }
 
 db.update('movies', update_data, 'movieId=3')
+
+# SELECT * FROM movies WHERE (movieId = 3 AND name = 'Kung fu Panda 3') OR name = 'House of cards';
+# SQL: <>  ==  Python: !=  
+# Use NOT IN to exclude 
+
+
+# movieCount = COUNT(*) (Python)
+# COUNT(*) AS movieCount (SQL)
+
